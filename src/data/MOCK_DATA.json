@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sansevieria Trifasciata",
+    "category": "indoor",
+    "descripcion": "It doesn't need much water. Give it a drink when her soil feels dry, about every few weeks. Less in winter. <br> <br>It’ll thrive in almost all light conditions (though not a windowless room). More is better, but anything is fine. <br> <br>Every now and again - just whenever you remember - give it leaves a light wipe to keep its pores free of dust. <br> <br>Plant height (including pot): 90cm",
+    "precio": 20,
+    "img": "../../sansevieriaTrifasciata.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Elastic Ficus",
+    "category": "indoor",
+    "descripcion": "Water it whenever the top two inches of soil are dry. It needs a lot less water in winter than in summer. <br> <br>It loves a bright room but it’s not partial to direct sun, so if your room is very sunny, place it away from the window. <br> <br>Its leaves can absorb a lot of moisture, so spraying it with a mister every few days will encourage healthy growth. <br> <br>Plant height (including pot): 70cm",
+    "precio": 12,
+    "img": "../../ficusElastica.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Monstera Adansonii",
+    "category": "indoor",
+    "descripcion": "It’s not very demanding. Check it weekly and if the top two inches of its soil feel dry, give it a drink. <br> <br>It’ll be fine in anything from light shade to bright, indirect light. It grows faster in good light. Keep its leaves moist and it’ll be a happy boy. <br> <br>Put it in a bright bathroom or mist it every few days. <br> <br>Plant height (including pot): 40cm",
+    "precio": 17,
+    "img": "../../monsteraAndasonii.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Peperomia Watermelon",
+    "category": "indoor",
+    "descripcion": "Give this Peperomia a light, but not too sunny spot in the house, otherwise the leaves may discolor. <br> <br>Give a little water once a week and let the clod between the watering dry up lightly before watering again. <br> <br>Do not pour on the core of the plant, because then the plant may rot. <br> <br>Plant height (including pot): 40cm",
+    "precio": 15,
+    "img": "../../peperomiaWatermelon.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Aphelandra",
+    "category": "indoor",
+    "descripcion": "Give her a spot with bright indirect light and a humidity of 60 to 70%. <br> <br>She prefers to have moist soil at all times, this is best provided by giving regular splashes of water. <br> <br>As a soil mix, she likes to have it well draining, but also something that holds water well. <br> <br>She tends to need a lot of nutrients during the growing season. <br> <br>Plant height (including pot): 40cm",
+    "precio": 18,
+    "img": "../../aphelandra2.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Monstera Deliciosa",
+    "category": "indoor",
+    "descripcion": "Plant that adapts to interiors of great indirect luminosity. <br> <br> Ideal for collectors and lovers of exotic plants. <br> <br> Moderate watering, leaving the substrate dry. <br> <br>To spray in case of dry environments.<br> <br>Pot size: 16/18cm diameter.",
+    "precio": 91,
+    "img": "../../monsteraDeliciosa.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Calathea Setosa",
+    "category": "indoor",
+    "descripcion": "They likes their soil moist, but not soggy. You can water them when the top two inches of soil feel dry. <br><br> They’ll manage in light shade, but they really love a bright spot. Keep them away from direct sunlight, it will burn their delicate leaves. <br><br>Mist them every few days to avoid crispy leaf tips, or pop them in a naturally humid room - like a bathroom. <br><br>Plant height (including pot): 70-80cm",
+    "precio": 28,
+    "img": "../../calatheaSetosa.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Senecio Rowleyanus",
+    "category": "cactiesSucculents",
+    "descripcion": "It is known as string of pearls, is a succulent houseplant that requires very little care. <br><br>It does not tolerate direct sunlight but it does tolerate spaces with bright light several hours a day. <br><br>Watering should be moderate, allowing the substrate to dry completely before watering again.<br><br>Plant height (including pot): 30cm",
+    "precio": 15,
+    "img": "../../senecioRowleyanus.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Jade Tree",
+    "category": "cactiesSucculents",
+    "descripcion": "Jade plants likes bright light and some direct sun.As a succulent this plant isn’t too high-maintenance, however you do need to take care when watering. <br><br>Overwatering is one of the main causes of failure for jade plants, so water once thoroughly and then let the soil dry out completely before watering again. <br><br>Plant height (including pot): 20cm",
+    "precio": 10,
+    "img": "../../jadeTree.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Cactus Spirali",
+    "category": "cactiesSucculents",
+    "descripcion": "The spiral cactus is one of the most beautiful and exotic cacti that we can find. It likes to receive some direct sun and watering when the soil is dry. <br><br>They are very easy to care for and super resistant to pests. <br><br> Coarse sand with good drainage will be perfect and a commercial cactus substrate will be enough to make it happy. <br><br>Plant height (including pot): 50cm",
+    "precio": 35,
+    "img": "../../cactusSpirali.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Cactus",
+    "category": "cactiesSucculents",
+    "descripcion": "A cinematic classic reminiscent of the wild, wild west, the cactus is one of nature’s most striking plants. <br><br> One of the things that makes the cactus so enduringly popular as a houseplant is its easy-going nature. <br><br> Having originated in the desert, it’s used to dry spells and sun, so water only when the soil is completely dry and keep in a bright, sunny spot. <br><br> Plant height (including pot): 25cm",
+    "precio": 35,
+    "img": "../../cactusP.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Hedera helix",
+    "category": "outdoor",
+    "descripcion": "She likes her soil gently moist, but not soggy. Water her when her top two inches of soil are dry. She could not be more easygoing when it comes to light. <br><br> She’ll cope in almost anything but loves bright, indirect light. <br><br> She’s used to lots of rain - well, she is English - so she likes a moist atmosphere. <br><br> Mist her every couple of days. <br><br> Plant height (including pot): 20-30cm",
+    "precio": 25,
+    "img": "../../hederaHelix.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Yucca",
+    "category": "outdoor",
+    "descripcion": "If you want to feel a little bit in the jungle without leaving your house or apartment, the Yucca is the plant for you. <br><br> Tall and elegant, it has hard, pointed leaves that emerge from the trunk, resembling a small palm tree. <br><br> Water when the substrate is dry to the touch and avoid puddling. It can be grown outdoors or indoors, as long as it has good light.<br><br> Plant height (including pot): 150cm",
+    "precio": 65,
+    "img": "../../yucca2.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Laurus Nobilis",
+    "category": "outdoor",
+    "descripcion": "She’ll do very well in a sunny position but she’ll also tolerate some shade for part of the day. <br><br> She likes her soil gently moist. She’ll cope with a bit of forgetful watering but doesn’t like to dry out entirely. <br><br> Help her grow strong and healthy by giving her a feed with some liquid fertiliser once per month in spring and summer. <br><br> Plant height (including pot): 20-30cm",
+    "precio": 80,
+    "img": "../../laurusNobilis.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Lemon Tree",
+    "category": "outdoor",
+    "descripcion": "This plant likes lots of sun, so put her in the brightest spot available.<br><br> She likes slightly moist soil, so water her if the top two inches of soil are dry. She'll be thirstier in summer than winter. <br><br> You can encourage her to grow more fruit by feeding her with citrus food once per month in spring and summer.<br><br>Plant height (including pot): 70-80cm",
+    "precio": 55,
+    "img": "../../lemonTree.jpg"
+  }
+]

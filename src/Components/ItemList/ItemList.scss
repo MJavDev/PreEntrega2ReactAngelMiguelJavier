@@ -1,0 +1,17 @@
+.contenedor {
+  margin: 0 auto;
+}
+
+.container h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 30px 60px;
+}
+
+.grid {
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 25px;
+}

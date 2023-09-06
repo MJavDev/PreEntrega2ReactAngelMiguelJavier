@@ -1,0 +1,34 @@
+.carro {
+  display: flex;
+  /* margin-top: 60px; */
+  justify-content: center;
+}
+
+.carro img {
+  max-width: 900px;
+}
+
+.carru {
+  background-image: url("../../assets/portada2.jpg");
+}
+
+.carru_height {
+  height: 50vh;
+}
+
+.img1 {
+  max-width: 1000px;
+}
+
+.titulo_banner {
+  font-size: 3rem;
+  color: black;
+  font-weight: 300;
+  /* width: 100%; */
+  /* margin-bottom: 100px; */
+  /* text-align:end; */
+  margin-right: 50px;
+  padding-block: 0.5rem;
+  padding-inline: 1.5rem;
+  background-color: rgb(255, 255, 255, 0.55);
+}
