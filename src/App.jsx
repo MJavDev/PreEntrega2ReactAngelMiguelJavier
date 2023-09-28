@@ -1,20 +1,20 @@
 import "./index.css";
 import "./App.css";
-import { Carrousel } from "./Components/Carrousel/Carrousel";
+import { Carrousel } from "./components/Carrousel/Carrousel";
 import { Header } from "./components/Header/Header";
-import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailContainer";
-import PortadaCat from "./Components/PortadaCat/PortadaCat";
-import { Categories } from "./Components/Categories/Categories";
-import { Footer } from "./Components/Footer/Footer";
-import { Contact } from "./Components/Contact/Contact";
-import { Store } from "./Components/Store/Store";
-import { About } from "./Components/About/About";
-import { Delivery } from "./Components/Delivery/Delivery";
-import { Guarantee } from "./Components/Guarantee/Guarantee";
-import { Why } from "./Components/WhyPlantopia/WhyPlantopia";
-import { PageNotFound } from "./Components/PageNotFound/PageNotFound";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import PortadaCat from "./components/PortadaCat/PortadaCat";
+import { Categories } from "./components/Categories/Categories";
+import { Footer } from "./components/Footer/Footer";
+import { Contact } from "./components/Contact/Contact";
+import { Store } from "./components/Store/Store";
+import { About } from "./components/About/About";
+import { Delivery } from "./components/Delivery/Delivery";
+import { Guarantee } from "./components/Guarantee/Guarantee";
+import { Why } from "./components/WhyPlantopia/WhyPlantopia";
+import { PageNotFound } from "./components/PageNotFound/PageNotFound";
 
 function App() {
   return (
