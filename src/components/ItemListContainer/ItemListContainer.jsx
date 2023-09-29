@@ -1,48 +1,80 @@
-import { useEffect, useState, useRef } from "react";
-import "./ItemListContainer.scss";
-import { pedirDatos } from "../../helpers/pedirDatos";
-import ItemList from "../ItemList/ItemList.jsx";
-import { useParams } from "react-router-dom";
+import { useEffect, useState, useRef } from 'react'
+import './ItemListContainer.scss'
+/* import { pedirDatos } from '../../helpers/pedirDatos' */
+import ItemList from '../ItemList/ItemList.jsx'
+import { useParams, useNavigate } from 'react-router-dom'
+import { collection, getDocs, query, where } from 'firebase/firestore'
+import { db } from '../../firebase/config'
+import { useContext } from "react"
+import { SearchContext } from '../../context/SearchContext';
+
 
 const ItemListContainer = () => {
-  const [productos, setProductos] = useState([]);
-  const [loading, setLoading] = useState(true);
+    
+    const { productos, setProductos } = useContext(SearchContext)
+    const [loading, setLoading] = useState(true)
 
-  const { categoryId } = useParams();
+    const { categoryId } = useParams()
 
-  const ref = useRef();
 
-  useEffect(() => {
-    setLoading(true);
 
-    pedirDatos()
-      .then((r) => {
-        if (categoryId == "all") {
-          setProductos(r);
-          /* muestro todo */
-        } else if (categoryId) {
-          setProductos(r.filter((prod) => prod.category === categoryId));
-          /* si categoryId tiene algun valor, busca coincidencia */
-        } else {
-          setProductos(r);
+    const ref = useRef();
+
+    useEffect(() => {
+        setLoading(true)
+
+        
+        const productosRef = collection(db, "productos")
+        
+
+        let q = productosRef
+
+        if (categoryId == "all"){            
+            q= productosRef
         }
-      })
-      .catch((e) => console.log(e))
-      .finally(() => {
-        setLoading(false);
-        /* if( categoryId != undefined)
-                    setTimeout(()=>{ref.current.scrollIntoView({"behavior":"smooth"});})
-                else {
-                    setTimeout(()=>{window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });})
-                }; */
-      });
-  }, [categoryId]);
+        else if (categoryId){
+            q= query(productosRef, where('category', "==", categoryId) )
+        }
+       else {
+            q= productosRef
+        }      
+               
 
-  return (
-    <div ref={ref} className="store">
-      {loading ? <h2>Loading...</h2> : <ItemList productos={productos} />}
-    </div>
-  );
-};
+        
+       
+        getDocs(q)
+            .then((resp) => {
+                const docs = resp.docs.map((doc) => {
+                    return {
+                        id: doc.id,
+                        ...doc.data()
+                    }
+                })
+                
+                setProductos(docs)
+            })
+            .catch(e => console.log(e))
+            .finally(() => setLoading(false))
 
-export default ItemListContainer;
+    }, [categoryId])
+
+
+
+
+    return (
+        <div ref={ref} className='store'>            
+            {
+                loading
+                    ? <h2>Loading...</h2>
+                    : <ItemList  productos={productos}/>
+            }
+        </div>
+    )
+}
+
+
+export default ItemListContainer
+
+
+
+

@@ -1,34 +1,32 @@
-.carro {
-  display: flex;
-  /* margin-top: 60px; */
-  justify-content: center;
+
+.imgHero{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.carro img {
-  max-width: 900px;
+
+.titulo_banner{
+    font-size: 3rem;   
+    color: black;
+    font-weight: 300;    
+    margin-left: 50px;
+    padding-block: 0.5rem;
+    padding-inline: 1.5rem;
+    background-color: rgb(255, 255, 255, 0.55);
+    width: fit-content;
+    text-align: end;
 }
 
-.carru {
-  background-image: url("../../assets/portada2.jpg");
+@media screen and (min-width: 768px) {
+    .titulo_banner{
+        margin-left: 0;
+        margin-right: 25px;
+    }
 }
 
-.carru_height {
-  height: 50vh;
-}
-
-.img1 {
-  max-width: 1000px;
-}
-
-.titulo_banner {
-  font-size: 3rem;
-  color: black;
-  font-weight: 300;
-  /* width: 100%; */
-  /* margin-bottom: 100px; */
-  /* text-align:end; */
-  margin-right: 50px;
-  padding-block: 0.5rem;
-  padding-inline: 1.5rem;
-  background-color: rgb(255, 255, 255, 0.55);
+@media screen and (min-width: 1200px) {
+    .titulo_banner{
+        margin-right: 50px;
+    }
 }

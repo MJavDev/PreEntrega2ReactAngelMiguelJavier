@@ -1,32 +1,40 @@
-import banner1 from "../../assets/portada2.jpg";
 
-import "./Carrousel.scss";
+import banner1 from '../../assets/portada2.jpg'
 
-const estilosBanner = {
-  /* maxWidth: '1600px', */
-  height: "60vh",
+import './Carrousel.scss'
+
+
+const estilosBanner = {  
+  height: '60vh',
   backgroundImage: `url(${banner1})`,
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  display: "flex",
-  justifyContent: "end",
-  alignItems: "center",
-};
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',  
+}
+
 
 export const Carrousel = () => {
   return (
     <section>
-      <div className="imgPort" style={estilosBanner}>
-        <h2 className="titulo_banner">FIND YOUR PERFECT PLANT</h2>
-      </div>
-      {/* <div className='carro'>          
-          <img src={banner1} className="img1" alt="" />
-        </div>  */}
+      <div className="imgHero" style={estilosBanner}>
+          <h2 className='titulo_banner'>FIND YOUR PERFECT PLANT</h2>
+      </div>       
     </section>
-  );
-};
+  )
+}
 
-/*       <div id="controls-carousel" className="relative w-full" data-carousel="static">
+
+
+
+
+
+
+
+
+        
+
+
+
+  /*       <div id="controls-carousel" className="relative w-full" data-carousel="static">
     
         <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
              
